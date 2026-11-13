@@ -15,7 +15,10 @@
   --line: #e5eaf0;
   --soft: #f5f8fc;
   --white: #ffffff;
+
+  --body-font-size: 20px; /* 추가 */
 }
+
 
 * {
   box-sizing: border-box;
@@ -38,7 +41,7 @@ body {
     Arial,
     sans-serif;
 
-  font-size: 18px;
+  font-size: var(--body-font-size);
   line-height: 1.8;
   -webkit-font-smoothing: antialiased;
 }
