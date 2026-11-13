@@ -1,11 +1,9 @@
-
 ---
 layout: default
 title: Home
 ---
 
 <div class="research-home">
-
   <!-- HERO -->
   <header class="hero">
 
