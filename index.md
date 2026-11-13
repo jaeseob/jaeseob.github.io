@@ -34,7 +34,7 @@ title: Home
     </p>
 
     <p class="position">
-      <strong>Research Assistant Professor</strong><br>
+      <strong>Cognitive Neuroscientist</strong><br>
       Brain Imaging Center · Seoul National University
     </p>
 
