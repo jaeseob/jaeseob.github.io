@@ -837,3 +837,43 @@ p {
   }
 
 }
+
+/* ==========================================
+   GLOBAL PARAGRAPH FONT SIZE
+========================================== */
+
+:root {
+  --body-font-size: 20px;
+}
+
+body {
+  font-size: var(--body-font-size);
+}
+
+/* Home page descriptions */
+.research-home .intro,
+.research-home .section-description,
+.research-home .research-row-content p:not(.question),
+.research-home .method p {
+  font-size: var(--body-font-size);
+}
+
+/* Research page descriptions */
+.research-page .research-intro > p:not(.research-lead),
+.research-page .research-area > p:not(.research-question),
+.research-page .research-methods > p,
+.research-page .method p {
+  font-size: var(--body-font-size);
+}
+
+/* Related publications */
+.research-page .research-reference p {
+  font-size: 18px;
+}
+
+/* Mobile */
+@media (max-width: 760px) {
+  :root {
+    --body-font-size: 18px;
+  }
+}
