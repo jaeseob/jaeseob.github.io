@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1">
+
+  <title>
+    {% if page.title == "Home" %}
+      Jaeseob Lim
+    {% else %}
+      {{ page.title }} | Jaeseob Lim
+    {% endif %}
+  </title>
+
+  <meta name="description"
+        content="Jaeseob Lim - Cognitive Neuroscientist studying visual working memory, cognition, and representational structure.">
+
+  <link rel="stylesheet"
+        href="{{ '/assets/css/custom.css' | relative_url }}">
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+
+      <a class="site-brand"
+         href="{{ '/' | relative_url }}">
+        Jaeseob Lim
+      </a>
+
+      <nav class="site-nav" aria-label="Main navigation">
+
+        <a href="{{ '/' | relative_url }}"
+           {% if page.title == "Home" %}class="active" aria-current="page"{% endif %}>
+          Home
+        </a>
+
+        <a href="{{ '/research.html' | relative_url }}"
+           {% if page.title == "Research" %}class="active" aria-current="page"{% endif %}>
+          Research
+        </a>
+
+        <a href="{{ '/publications.html' | relative_url }}"
+           {% if page.title == "Publications" %}class="active" aria-current="page"{% endif %}>
+          Publications
+        </a>
+
+        <a href="{{ '/cv.html' | relative_url }}"
+           {% if page.title == "CV" %}class="active" aria-current="page"{% endif %}>
+          CV
+        </a>
+
+        <a href="{{ '/contact.html' | relative_url }}"
+           {% if page.title == "Contact" %}class="active" aria-current="page"{% endif %}>
+          Contact
+        </a>
+
+      </nav>
+    </div>
+  </header>
+
+  <main class="site-content">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <p>© {{ 'now' | date: "%Y" }} Jaeseob Lim</p>
+  </footer>
+
+</body>
+</html>
