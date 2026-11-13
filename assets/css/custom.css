@@ -1,0 +1,375 @@
+
+/* ==========================
+   GLOBAL DESIGN
+========================== */
+
+:root {
+  --navy: #203451;
+  --blue: #426eaa;
+  --muted: #617186;
+  --line: #e5eaf0;
+  --soft: #f5f8fc;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #ffffff;
+  color: var(--navy);
+  font-family: -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+a {
+  color: var(--blue);
+}
+
+a:hover {
+  color: var(--navy);
+}
+
+h1, h2, h3 {
+  line-height: 1.35;
+  letter-spacing: -0.4px;
+}
+
+p {
+  margin-top: 0;
+}
+
+/* ==========================
+   HEADER & NAVIGATION
+========================== */
+
+.site-header {
+  width: 100%;
+  background: #ffffff;
+  border-bottom: 1px solid var(--line);
+}
+
+.header-inner {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 20px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.site-brand {
+  font-size: 21px;
+  font-weight: 750;
+  color: var(--navy);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+  flex-wrap: wrap;
+}
+
+.site-nav a {
+  font-size: 15px;
+  color: var(--muted);
+  font-weight: 500;
+  text-decoration: none;
+  padding: 6px 0;
+  border-bottom: 2px solid transparent;
+  transition: color 0.2s ease;
+}
+
+.site-nav a:hover {
+  color: var(--blue);
+}
+
+.site-nav a.active {
+  color: var(--blue);
+  font-weight: 700;
+  border-bottom-color: var(--blue);
+}
+
+/* ==========================
+   PAGE CONTENT
+========================== */
+
+.site-content {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 32px 32px 70px;
+  min-height: 70vh;
+}
+
+.site-content h1 {
+  font-size: clamp(36px, 5vw, 48px);
+}
+
+.site-content h2 {
+  font-size: 28px;
+  margin-top: 36px;
+}
+
+.site-content h3 {
+  font-size: 21px;
+}
+
+.site-content p,
+.site-content li {
+  line-height: 1.85;
+}
+
+/* ==========================
+   HOME - HERO
+========================== */
+
+.research-home .hero {
+  padding: 48px 0 58px;
+  border-bottom: 1px solid var(--line);
+}
+
+.research-home .eyebrow {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--blue);
+  margin-bottom: 18px;
+}
+
+.research-home .hero h1 {
+  font-size: clamp(44px, 6vw, 64px);
+  font-weight: 750;
+  letter-spacing: -2px;
+  margin: 0 0 14px;
+}
+
+.research-home .hero-subtitle {
+  font-size: 21px;
+  font-weight: 500;
+  color: var(--blue);
+  margin-bottom: 32px;
+}
+
+.research-home .hero-statement {
+  font-size: clamp(24px, 3vw, 30px);
+  font-weight: 500;
+  line-height: 1.5;
+  max-width: 850px;
+  margin-bottom: 26px;
+}
+
+.research-home .hero-statement strong {
+  color: var(--blue);
+}
+
+.research-home .intro {
+  max-width: 800px;
+  font-size: 17px;
+  color: var(--muted);
+  line-height: 1.85;
+  margin-bottom: 28px;
+}
+
+.research-home .position {
+  font-size: 16px;
+  color: var(--muted);
+  margin-bottom: 26px;
+}
+
+.research-home .position strong {
+  color: var(--navy);
+}
+
+.research-home .opportunity {
+  border-left: 3px solid var(--blue);
+  background: var(--soft);
+  border-radius: 0 6px 6px 0;
+  padding: 16px 20px;
+  font-size: 16px;
+  color: var(--muted);
+  max-width: 800px;
+}
+
+/* ==========================
+   HOME - SECTIONS
+========================== */
+
+.research-home .section {
+  padding: 58px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.research-home .section-label {
+  color: var(--blue);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.research-home .section h2 {
+  font-size: 30px;
+  margin: 0 0 18px;
+}
+
+.research-home .section-description {
+  max-width: 800px;
+  font-size: 17px;
+  color: var(--muted);
+  margin-bottom: 32px;
+}
+
+/* ==========================
+   RESEARCH CARDS
+========================== */
+
+.research-home .research-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.research-home .research-card {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 28px 24px;
+  transition: transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.research-home .research-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 28px rgba(32,52,81,0.07);
+}
+
+.research-home .card-number {
+  font-size: 12px;
+  color: var(--blue);
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.research-home .research-card h3 {
+  font-size: 21px;
+  line-height: 1.4;
+  margin: 0 0 16px;
+}
+
+.research-home .research-card .question {
+  color: var(--blue);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.65;
+  margin-bottom: 16px;
+}
+
+.research-home .research-card p {
+  color: var(--muted);
+  font-size: 16px;
+  line-height: 1.8;
+  margin: 0;
+}
+
+/* ==========================
+   METHODS
+========================== */
+
+.research-home .methods-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 28px;
+}
+
+.research-home .method {
+  border-top: 2px solid var(--line);
+  padding-top: 20px;
+}
+
+.research-home .method h3 {
+  font-size: 19px;
+  margin: 0 0 10px;
+}
+
+.research-home .method p {
+  font-size: 16px;
+  color: var(--muted);
+  line-height: 1.8;
+}
+
+/* ==========================
+   FOOTER
+========================== */
+
+.site-footer {
+  border-top: 1px solid var(--line);
+  padding: 25px 20px;
+  text-align: center;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.site-footer p {
+  margin: 0;
+}
+
+/* ==========================
+   MOBILE
+========================== */
+
+@media (max-width: 760px) {
+
+  .header-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 18px 22px;
+    gap: 12px;
+  }
+
+  .site-nav {
+    gap: 12px 20px;
+  }
+
+  .site-nav a {
+    font-size: 14px;
+  }
+
+  .site-content {
+    padding: 24px 22px 50px;
+  }
+
+  .research-home .hero {
+    padding: 30px 0 40px;
+  }
+
+  .research-home .research-grid,
+  .research-home .methods-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .research-home .section {
+    padding: 40px 0;
+  }
+
+  .research-home .hero h1 {
+    letter-spacing: -1px;
+  }
+
+  .research-home .research-card {
+    padding: 24px;
+  }
+}
