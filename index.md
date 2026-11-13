@@ -33,11 +33,13 @@ title: Home
       systematic biases in visual memory and behavior.
     </p>
 
+    <br>
     <p class="position">
       <strong>Cognitive Neuroscientist</strong><br>
       Brain Imaging Center · Seoul National University
     </p>
 
+    <br>
     <div class="opportunity">
       I am currently seeking postdoctoral opportunities
       in cognitive neuroscience, psychology,
@@ -189,7 +191,6 @@ title: Home
         <p>
           Visual psychophysics<br>
           Web-based experiments<br>
-          Laboratory experiments
         </p>
       </div>
 
@@ -198,8 +199,8 @@ title: Home
 
         <p>
           Functional MRI<br>
+          Eye-tracking<br>
           EEG<br>
-          Eye-tracking
         </p>
       </div>
 
@@ -209,7 +210,6 @@ title: Home
         <p>
           Computational modeling<br>
           Multivariate pattern analysis<br>
-          Representational similarity analysis
         </p>
       </div>
 
