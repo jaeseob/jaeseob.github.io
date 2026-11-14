@@ -8,7 +8,7 @@ permalink: /cv.html
 
 You can download my full CV here:
 
-[Download CV (PDF)](./CV_Jaeseob_Lim.pdf)
+[Download CV (PDF)](./CV_JaeseobLim.pdf)
 
 ## Education
 - Ph.D. in Brain and Cognitive Sciences, Seoul National University
