@@ -20,5 +20,3 @@ You can download my full CV here:
 - Web-based behavioral experiments
 - Visual psychophysics
 - Data analysis and visualization
-
-[Home](./) | [Research](./research.html) | [Publications](./publications.html) | [Contact](./contact.html)
