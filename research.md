@@ -289,7 +289,6 @@ permalink: /research.html
         <p>
           Visual psychophysics<br>
           Web-based experiments<br>
-          Laboratory experiments<br>
           Eye-tracking
         </p>
       </div>
@@ -298,9 +297,8 @@ permalink: /research.html
         <h3>Neuroimaging</h3>
         <p>
           Functional MRI<br>
-          EEG<br>
           Multivariate pattern analysis<br>
-          Representational similarity analysis
+          EEG<br>
         </p>
       </div>
 
@@ -308,9 +306,7 @@ permalink: /research.html
         <h3>Computational</h3>
         <p>
           Computational modeling<br>
-          Neural population representations<br>
-          Representational geometry<br>
-          Statistical modeling
+          Bayesian inference<br>
         </p>
       </div>
 
