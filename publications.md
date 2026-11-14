@@ -137,7 +137,7 @@ target="_blank" rel="noopener noreferrer">https://doi.org/10.1371/journal.pone.0
 </p>
 
 
-<h2>Selected Conference Presentations</h2>
+<h2>Conference Presentations</h2>
 
 <p class="conference">
 <strong>SfN 2026.</strong>
