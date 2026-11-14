@@ -89,6 +89,16 @@ reflects the asymmetry of cortical representational geometry.</em>
 <h2>Peer-Reviewed Publications</h2>
 
 <p class="citation">
+<strong>Lim, J.</strong>, Park, S., Lee, S. H., &amp;
+Lee, S. A. (2025).
+Canonical cortico-hippocampal dynamics underlie memory
+of navigational episodes and its early decline in aging.
+<em>Imaging Neuroscience, 3</em>.
+<a href="https://doi.org/10.1162/IMAG.a.101"
+target="_blank" rel="noopener noreferrer">https://doi.org/10.1162/IMAG.a.101</a>
+</p>
+
+<p class="citation">
 Gu, H., Lee, J., Kim, S., <strong>Lim, J.</strong>,
 Lee, H. J., Lee, H., et al. (2025).
 Attractor dynamics of working memory explain a concurrent
@@ -97,16 +107,6 @@ biases in visual estimation.
 <em>Neuron, 113</em>(20), 3476–3490.e9.
 <a href="https://doi.org/10.1016/j.neuron.2025.07.003"
 target="_blank" rel="noopener noreferrer">https://doi.org/10.1016/j.neuron.2025.07.003</a>
-</p>
-
-<p class="citation">
-<strong>Lim, J.</strong>, Park, S., Lee, S. H., &amp;
-Lee, S. A. (2025).
-Canonical cortico-hippocampal dynamics underlie memory
-of navigational episodes and its early decline in aging.
-<em>Imaging Neuroscience, 3</em>.
-<a href="https://doi.org/10.1162/IMAG.a.101"
-target="_blank" rel="noopener noreferrer">https://doi.org/10.1162/IMAG.a.101</a>
 </p>
 
 <p class="citation">
