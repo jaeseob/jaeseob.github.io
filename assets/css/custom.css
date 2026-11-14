@@ -250,8 +250,8 @@ p {
 /* Current position */
 
 .research-home .position {
-  font-size: 32px;
-  line-height: 1.7;
+  font-size: 28px;
+  line-height: 1.2;
   color: var(--muted);
   margin-bottom: 26px;
 }
@@ -272,8 +272,8 @@ p {
 
   padding: 17px 21px;
 
-  font-size: 32px;
-  line-height: 1.3;
+  font-size: 28px;
+  line-height: 1.2;
   color: var(--muted);
 }
 
