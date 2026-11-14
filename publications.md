@@ -6,8 +6,6 @@ permalink: /publications.html
 
 # Publications
 
-## Selected Publications
-
 **Gu, H., Lee, J., Kim, S., Lim, J., Lee, H. J., Lee, H., ... & Lee, S. H. (2025).**  
 Decision-Consistent Bias Mediated by Drift Dynamics of Human Visual Working Memory. *Neuron*.
 
