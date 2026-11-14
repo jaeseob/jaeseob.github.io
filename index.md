@@ -38,8 +38,6 @@ title: Home
       <strong>Cognitive Neuroscientist</strong><br>
       Brain Imaging Center · Seoul National University
     </p>
-
-    <br>
     <div class="opportunity">
       I am currently seeking postdoctoral opportunities
       in cognitive neuroscience, psychology,
