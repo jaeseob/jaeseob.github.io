@@ -27,4 +27,3 @@ Utility and Use of Accuracy Cues in Social Learning of Crowd Preferences. *PLOS 
 - SfN 2024: Similarity in Brain Activity Dynamics Across Individuals During Navigation and Its Prediction of Spatial Memory Performance
 - OBHM 2024: Shared Cortical Activation Dynamics Across Subjects During Virtual Navigation and Its Prediction of Successful Encoding of Navigation Episodes
 
-[Home](./) | [Research](./research.html) | [CV](./cv.html) | [Contact](./contact.html)
