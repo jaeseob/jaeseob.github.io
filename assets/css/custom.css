@@ -147,7 +147,7 @@ p { margin: 0 0 20px; }
 .research-home .position {
   margin-bottom: 26px;
   color: var(--muted);
-  font-size: 28px;
+  font-size: 22px;
   line-height: 1.3;
 }
 .research-home .position strong { color: var(--navy); font-weight: 700; }
@@ -158,7 +158,7 @@ p { margin: 0 0 20px; }
   border-left: 3px solid var(--blue);
   border-radius: 0 7px 7px 0;
   color: var(--muted);
-  font-size: 28px;
+  font-size: 22px;
   line-height: 1.3;
 }
 
