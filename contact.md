@@ -12,5 +12,3 @@ permalink: /contact.html
 - ORCID: https://orcid.org/0000-0002-0579-1759
 
 I am currently seeking postdoctoral opportunities in cognitive neuroscience, psychology, and related fields.
-
-[Home](./) | [Research](./research.html) | [Publications](./publications.html) | [CV](./cv.html)
